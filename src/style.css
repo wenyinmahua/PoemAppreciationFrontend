@@ -1,0 +1,24 @@
+
+
+body {
+  background-color: #d4d2bb;
+}
+.bg {
+  width: 100%;
+  padding: 27px;
+  background-color: #eee9d6;
+}
+
+.ant-menu-item-selected {
+  color: #5b5d44 !important;
+  font-weight: bold; /* 加粗字体 */
+}
+
+/* 更改下方线条颜色，这里假设是修改分割线颜色 */
+.ant-menu-horizontal:not(.ant-menu-dark) .ant-menu-item-selected::after {
+  border-bottom-color: #5b5d44 !important; /* 修改为所需颜色 */
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) .ant-menu-item:hover::after{
+  border-bottom-color: #5b5d44 !important;
+}
